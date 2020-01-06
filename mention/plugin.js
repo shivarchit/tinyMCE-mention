@@ -300,6 +300,10 @@
                 index = (currentIndex === 0) ? this.$dropdown.find('li').length - 1 : --currentIndex;
 
             this.$dropdown.find('li').removeClass('active').eq(index).addClass('active');
+            /** To keep the selected li visible under the dropdown,
+             *  using keyboard up/down arrow keys when a large number of options are available.*/
+            var element = this.$dropdown.find('li').eq(index);
+            element[0].scrollIntoView(false);
         },
 
         highlightNextResult: function () {
@@ -307,6 +311,10 @@
                 index = (currentIndex === this.$dropdown.find('li').length - 1) ? 0 : ++currentIndex;
 
             this.$dropdown.find('li').removeClass('active').eq(index).addClass('active');
+            /** To keep the selected li visible under the dropdown,
+             *  using keyboard up/down arrow keys when a large number of options are available.*/
+            var element = this.$dropdown.find('li').eq(index);
+            element[0].scrollIntoView(false);
         },
 
         select: function (item) {
