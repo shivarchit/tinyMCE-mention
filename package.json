@@ -1,14 +1,14 @@
 {
-  "name": "tinymce-mention-keyboardfixes-v1",
-  "version": "4.0.3",
+  "name": "tinymce-mention-pb-internal",
+  "version": "0.0.1",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/StevenDevooght/tinyMCE-mention.git"
   },
   "description": "Mention/Autocomplete plugin for tinyMCE WYSIWYG editor",
-  "author": "Steven Devooght",
+  "author": "Steven Devooght, Forked by Shiv Archit",
   "bugs": {
-    "url": "https://github.com/StevenDevooght/tinyMCE-mention/issues"
+    "url": "https://github.com/shivarchit/tinyMCE-mention"
   },
   "engines": {
     "node": ">=0.10.26"
@@ -27,7 +27,7 @@
   "scripts": {
     "test": "gulp lint test"
   },
-  "homepage": "https://github.com/StevenDevooght/tinyMCE-mention#readme",
+  "homepage": "https://github.com/shivarchit/tinyMCE-mention",
   "directories": {
     "example": "examples",
     "test": "tests"
