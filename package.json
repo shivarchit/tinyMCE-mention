@@ -1,14 +1,15 @@
 {
-  "name": "tinymce-mention-pb-internal",
+  "name": "tinymce-mention-internal-fork",
   "version": "0.0.1",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/StevenDevooght/tinyMCE-mention.git"
+    "url": "git+https://github.com/shivarchit/tinyMCE-mention"
   },
-  "description": "Mention/Autocomplete plugin for tinyMCE WYSIWYG editor",
+  "description": "Mention/Autocomplete plugin for tinyMCE WYSIWYG editor, modified for internal use with some fixes and modifications",
   "author": "Steven Devooght, Forked by Shiv Archit",
   "bugs": {
-    "url": "https://github.com/shivarchit/tinyMCE-mention"
+    "url": "https://github.com/shivarchit/tinyMCE-mention",
+    "urlAuthor": "https://github.com/StevenDevooght/tinyMCE-mention"
   },
   "engines": {
     "node": ">=0.10.26"
