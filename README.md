@@ -2,7 +2,7 @@
 
 [![Travis](https://travis-ci.org/StevenDevooght/tinyMCE-mention.svg?branch=master)](https://travis-ci.org/StevenDevooght/tinyMCE-mention)
 
-Based on Mentions plugin for tinyMCE WYSIWYG editor.
+Mentions plugin for tinyMCE WYSIWYG editor, modified for internal use with some fixes and modifications".
 
 ![preview](https://static.cognistreamer.com/mention-plugin/mention-4.0.0.png)
 
@@ -29,7 +29,7 @@ Added ability to move selected option in dropdown down controls via keyboard key
 Install using bower.
 
 ```
-bower install tinymce-mention
+bower install tinymce-mention-internal-fork
 ```
 
 Or copy the source of the plugin to the plugins directory of your tinyMCE installation.
