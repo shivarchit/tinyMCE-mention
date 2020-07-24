@@ -2,7 +2,7 @@
 
 [![Travis](https://travis-ci.org/StevenDevooght/tinyMCE-mention.svg?branch=master)](https://travis-ci.org/StevenDevooght/tinyMCE-mention)
 
-Mentions plugin for tinyMCE WYSIWYG editor.
+Based on Mentions plugin for tinyMCE WYSIWYG editor.
 
 ![preview](https://static.cognistreamer.com/mention-plugin/mention-4.0.0.png)
 
@@ -20,6 +20,9 @@ Mentions plugin for tinyMCE WYSIWYG editor.
 * [jQuery](http://jquery.com/)
 
 > NOTE: Use v3.x if you're using tinyMCE v3.5.x, use v4.x if you're using tinyMCE v4.x
+
+## Added Fix 
+Added ability to move selected option in dropdown down controls via keyboard keys and keeping it in focus. 
 
 ## Usage
 
